@@ -1,6 +1,7 @@
 # CommunicativeStateClassification
 This algorithm takes audio waveforms from 2-4 talkers and classifies the communicative state onsets, offsets and durations.
-The first step is to perform Voice Activity Detection (VAD) on the raw audio files, and the next is to feed the binary activity array into the Communicative State Classification (CSC) algorithm.
+The first step is to perform Voice Activity Detection (VAD) on the raw audio files, and the next is to feed the binary activity arrays into the Communicative State Classification (CSC) algorithm.
+The VAD provided is an energy-based approach that assumes clean speech signals, i.e., with minimal cross-talk and background noise. It can be substituted by alternative VAD methods based on your specific requirements and preferences.
 
 `tutorial/tutorial_CSC.m` will guide you through how to run the VAD and CSC, based on the functions in the _tools_ folder, on an example of a conversation taken from Sørensen, Anna Josefine, Fereczkowski, Michal, & MacDonald, Ewen Neale. (2018, March 21). "Task dialog by native-Danish talkers in Danish and English in both quiet and noise." Zenodo. https://doi.org/10.5281/zenodo.1204951
 
