@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Communicative State Classification: MATLAB algorithm for classifying multi-talker audio into timings and durations of conversational dynamics"
+version: "1.0.0"
+date-released: "2025-09-05"
+doi: 10.5281/zenodo.17063065
+repository-code: "https://github.com/AnnaJosefine/CommunicativeStateClassification"
+authors:
+  - name: "Anna Josefine Munch Sørensen"
+    email: "annajosefine@gmail.com"
+    orcid: "https://orcid.org/0000-0001-8148-5692"  
+keywords:
+  - communicative state classification
+  - voice activity detection
+  - multi-talker audio
+  - conversational dynamics
+  - turn-taking
+  - MATLAB
+abstract: >
+  This MATLAB-based algorithm detects communicative state onsets, offsets, and durations from audio waveforms involving 2–4 talkers. It includes an energy-based Voice Activity Detection (VAD) method and a Communicative State Classification (CSC) algorithm. A tutorial and example dataset is provided. The tool supports research in conversational dynamics.
