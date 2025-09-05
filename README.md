@@ -48,6 +48,16 @@ For an overview of the nomenclature, please refer to my PhD thesis:
 [2] Sørensen, Anna Josefine, Fereczkowski, Michal, & MacDonald, Ewen Neale. (2018, March 21). "Task dialog by native-Danish talkers in Danish and English in both quiet and noise." Zenodo. https://doi.org/10.5281/zenodo.1204951.
 
 ---
+
+## How to cite
+
+If you use this repository, please cite it as:
+
+[![DOI](https://zenodo.org/badge/641932737.svg)](https://doi.org/10.5281/zenodo.17063065)
+
+Anna Josefine Munch Sørensen. (2025). *Communicative State Classification: MATLAB algorithm for classifying multi-talker audio into timings and durations of conversational dynamics* (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.17063065
+
+---
 **Note:** The functions `determineStartCH.m` and `channelTurn.m` need the `bi2de` and `de2bi` functions from the Communications Toolbox in MATLAB. If you do not have access to that toolbox, you need to write a function that converts a decimal to a binary array and vice versa. In a future commit, these functions will be added to the `tools` folder.
 
 For questions, please contact me at annajosefine@gmail.com.
